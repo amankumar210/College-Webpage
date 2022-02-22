@@ -1,0 +1,65 @@
+#branches{
+    flex-direction: column;
+}
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 5px;
+    padding-bottom: 6px;
+}
+#home{
+    height: 147px;
+    padding: 43px 26px;
+}
+
+
+#home::before{
+    height: 400px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/* Utillity Classess */
+.h-primary{
+    font-size: 26px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+#recruiter{
+    flex-wrap: wrap;
+}
+
+#recruiter img{
+    width:66px;
+    padding: 0px 4px;
+    /* height: auto; */
+
+}
+
+#Recruiters{
+    position: relative;
+}
+/* 
+#Recruiters::before{
+    /* width: 80%;
+    height: 10%; 
+} */
+
+#contact-box{
+    width: 187%;
+    justify-content: left;
+}
+
+#home::before{
+    top:0px ;
+}
